@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/doc/" />
+  <Folder Name="/src/">
+    <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
+    <Project Path="Player/Player.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="UnitTestProject1/UnitTestProject1.csproj" />
+  </Folder>
+</Solution>

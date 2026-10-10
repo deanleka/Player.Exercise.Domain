@@ -18,6 +18,26 @@ namespace PlayerExercise.Domain
 
         public int Gold { get; private set; }
 
+       
+        
+        
+        /*costruttore di default 
+       public Player() 
+        {
+        Name = "Default Player";
+            Level =1;
+            Experience=0;
+            Health = 100;
+        }
+        */
+        
+        
+        
+        
+        
+        
+        
+    
         // Costruttore: inizializza il giocatore con i valori predefiniti
         public Player(string name)
         {

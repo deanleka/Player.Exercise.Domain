@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Numerics;
-using Player.Exercise.Domain;
+using PlayerExercise.Domain;
 
 public class Program
 {

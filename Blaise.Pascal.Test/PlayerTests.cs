@@ -79,6 +79,43 @@ namespace Blaise.Pascal.Test
             Assert.Equal(0, player.Experience);
         }
 
+          [Fact]
+
+  public void Player_ShouldTakeDamageAndDie()
+  {
+      // Arrange
+      Player player = new Player("Mario");
+      // Act
+      player.TakeDamage(150);
+      // Assert
+      Assert.Equal(0, player.Health);
+      Assert.False(player.IsAlive);
+  }
+
+
+  [Fact]
+
+  public void Player_ShouldHeal()
+  {
+      // Arrange
+      Player player = new Player("Mario");
+      player.TakeDamage(50);
+      // Act
+      player.Heal(30);
+      // Assert
+      Assert.Equal(80, player.Health);
+  }
+
+  [Fact]
+
+  public void Player_ShouldHaveValidPublicKey()
+  {
+      // Arrange
+      Player player = new Player("Mario");
+      // Assert
+      Assert.NotNull(player.PublicKey);
+  }
+
 
     }
 }
